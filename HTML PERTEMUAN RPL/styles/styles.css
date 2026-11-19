@@ -1,0 +1,48 @@
+/* Universal selectpr */
+* {
+    font-family: Arial
+}
+/* Type selector */
+
+h1 {
+    color: chocolate;
+}
+
+h2 {
+    color:aliceblue;
+}
+
+/* Classs Selector */
+li.Breakfast{
+    color:cornsilk;
+}
+
+/* ID SELECTOR */
+#lunch.monday {
+    color:burlywood;
+}
+
+/* CHILD SELECTOR */
+p>b{
+    color:blue;
+}
+
+li>b{
+    color:chartreuse;
+}
+
+/* DESCENDANT SELECTOR */
+p b{
+    color:deeppink;
+}
+/* ADJACENT SIBLING SELECTOR */
+
+p+h2 {
+    color:hotpink;
+}
+
+/* General sibling selector */
+
+h2~p{
+    font-family: 'Times New Roman';
+}
